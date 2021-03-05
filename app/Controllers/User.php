@@ -15,8 +15,13 @@ class User extends ResourceController
     public function index()
     {
         $model = new UserModel();
-        $data['users'] = $model->orderBy('id', 'DESC')->findAll();
-        return $this->respond($data);
+        $data = $model->orderBy('id', 'DESC')->findAll();
+        $response = [
+            'status'   => 200,
+            'messages' =>  'Users Found successfully',
+            'data' => $data
+        ];
+        return $this->respond($response,200,"Data Found");
     }
 
     // create
