@@ -33,7 +33,12 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 $routes->resource('user');
-
+$routes->resource('inventory');
+$routes->resource('subscription');
+$routes->get('item/(:any)', 'Item::getItems/$1');
+$routes->post('item/addImage/', 'Item::putItemImage');
+$routes->get('transaction/recent/', 'Transaction::getRecentTransaction');
+$routes->post('transaction/add/', 'Transaction::insert');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

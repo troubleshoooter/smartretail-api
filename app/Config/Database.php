@@ -33,8 +33,8 @@ class Database extends Config
 	public $default = [
 		'DSN'      => '',
 		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
+		'username' => 'i7625509_ci1',
+		'password' => 'J~x_Q8-*/',
 		'database' => 'smartretail',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',

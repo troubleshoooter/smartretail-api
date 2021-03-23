@@ -1,0 +1,74 @@
+[20-Mar-2021 08:40:32 America/Chicago] PHP Fatal error:  Cannot use [] for reading in /home/eude40y381t1/public_html/api/app/Controllers/Transaction.php on line 77
+[22-Mar-2021 22:15:41 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/eude40y381t1/public_html/api/app/Controllers/Transaction.php on line 78
+[23-Mar-2021 12:29:30 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 12:29:58 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 12:30:22 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 12:49:39 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 12:52:08 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 12:52:29 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 12:53:01 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
+[23-Mar-2021 14:28:24 America/Chicago] PHP Fatal error:  Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php:42
+Stack trace:
+#0 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php(42): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(407): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/API/ResponseTrait.php(114): CodeIgniter\Debug\Exceptions->format(Array)
+#3 /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Debug/Exceptions.php(141): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown in /home/eude40y381t1/public_html/api/vendor/codeigniter4/framework/system/Format/JSONFormatter.php on line 42
