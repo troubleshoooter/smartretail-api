@@ -37,6 +37,7 @@ $routes->resource('inventory');
 $routes->resource('subscription');
 $routes->get('item/(:any)', 'Item::getItems/$1');
 $routes->post('item/addImage/', 'Item::putItemImage');
+$routes->post('item/check/', 'Item::checkBarCode');
 $routes->get('transaction/recent/', 'Transaction::getRecentTransaction');
 $routes->post('transaction/add/', 'Transaction::insert');
 /*
