@@ -28,7 +28,7 @@ class Inventory extends ResourceController
         if ($decoded) {
 
             $model = new InventoryModel();
-            $data = $model->where('user_id', $decoded->data->user_ID)->orderBy('item_code', 'DESC')->findAll();
+            $data = $model->where('user_id', $decoded->data->user_ID)->join('item_master', 'item_master.item_code = inventory_master.item_code')->findAll();
             $response = [
                 'status'   => 200,
                 'message' =>  'Inventory Found successfully',
@@ -56,6 +56,8 @@ class Inventory extends ResourceController
                 'item_code' => $this->request->getVar('item_code'),
                 'amt' => $this->request->getVar('amt'),
                 'qty' => $this->request->getVar('qty'),
+                'discount' => $this->request->getVar('discount'),
+                'price' => $this->request->getVar('price'),
                 'item_desc' => $this->request->getVar('item_desc'),
                 'item_uom' => $this->request->getVar('item_uom'),
                 'user_id' => $decoded->data->user_ID
@@ -73,7 +75,7 @@ class Inventory extends ResourceController
                 $response = [
                     'status'   => 200,
                     'message'    => 'Item Added Successfully',
-                    'data' => null
+                    'data' => $data
                 ];
                 return $this->respond($response);
             }
